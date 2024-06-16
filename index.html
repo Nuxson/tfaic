@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Counter</title>
+</head>
+<body>
+<div id="counter">
+    <div class="card">
+        <div>CDEK</div>
+        <div id="cdekNumber">0</div>
+        <div id="cdekTime">00.00.0000, 00:00:00</div>
+        <button onclick="recordCDEK()">Запись</button>
+    </div>
+
+    <div class="card">
+        <div>Пекарня</div>
+        <div id="pekNumber">0</div>
+        <div id="pekTime">00.00.0000, 00:00:00</div>
+        <button onclick="recordPek()">Запись</button>
+    </div>
+
+
+    <div class="card">
+        <div>Печать</div>
+        <div id="printNumber">0</div>
+        <div id="printTime">00.00.0000, 00:00:00</div>
+        <button onclick="recordPrint()">Запись</button>
+    </div>
+
+
+    <div class="card">
+        <div>Прохожие</div>
+        <div id="prNumber">0</div>
+        <div id="prTime">00.00.0000, 00:00:00</div>
+        <button onclick="recordPr()">Запись</button>
+    </div>
+</div>
+<div class="wrapper">
+    <button class="reset" onclick="resetCounter()">Полный сброс</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
