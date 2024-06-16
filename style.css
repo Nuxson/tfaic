@@ -13,7 +13,7 @@ button{
     background-color: #5AA6FF;
     font-size: 16px;
     margin-top: 16px;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 60px 10px 60px;
     border-radius: 10px;
 }
 #counter{
@@ -41,4 +41,12 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.name{
+    font-weight: 600;
+    font-size: 18px;
+}
+.number{
+    
+    font-size: 32px;
 }
