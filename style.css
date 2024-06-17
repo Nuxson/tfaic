@@ -8,6 +8,13 @@ body{
     font-size: 16px;
     font-optical-sizing: auto;
 }
+p{
+    color: #0000002c;
+    cursor: default;
+}
+div{
+    cursor: default;
+}
 button{
     cursor: pointer;
     border: none;
@@ -24,6 +31,13 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 .reset{
     background-color: #FF6262;
