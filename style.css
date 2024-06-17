@@ -54,7 +54,7 @@ button{
 }
 .card:hover{
     transition-duration: 0.4s;
-    padding: 32px;
+    padding: 19px;
     -webkit-box-shadow: 0px 0px 27px -11px rgba(41,41,41,0.7);
     -moz-box-shadow: 0px 0px 27px -11px rgba(41,41,41,0.7);
     box-shadow: 0px 0px 27px -11px rgba(41,41,41,0.7);
@@ -76,6 +76,5 @@ button{
 button:hover{
     transition-duration: 0.2s;
     background-color: #3372fa;
-    padding: 10px 80px 10px 80px;
-    font-size: 20px;
+    padding: 10px 65px 10px 65px;
 }
