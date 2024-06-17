@@ -32,10 +32,6 @@ button{
 }
 .reset:hover{
     background-color: #ff3030;
-    padding: 20px 100px 20px 100px;
-    font-size: 20px;
-    border-radius: 18px;
-
 }
 .card{
     display: flex;
@@ -64,6 +60,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .name{
     font-weight: 600;
