@@ -9,6 +9,7 @@ body{
     font-optical-sizing: auto;
 }
 button{
+    cursor: pointer;
     border: none;
     color: white;
     background-color: #5AA6FF;
@@ -16,6 +17,8 @@ button{
     margin-top: 16px;
     padding: 10px 60px 10px 60px;
     border-radius: 10px;
+    transition-duration: 1s;
+
 }
 #counter{
     display: flex;
@@ -68,4 +71,5 @@ button{
 button:hover{
     transition-duration: 1s;
     background-color: #3372fa;
+    padding: 10px 70px 10px 70px;
 }
