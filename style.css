@@ -16,8 +16,8 @@ button{
     font-size: 16px;
     margin-top: 16px;
     padding: 10px 60px 10px 60px;
-    border-radius: 10px;
-    transition-duration: 1s;
+    border-radius: 12px;
+    transition-duration: 0.2s;
 
 }
 #counter{
@@ -27,12 +27,15 @@ button{
 }
 .reset{
     background-color: #FF6262;
-    transition-duration: 1s;
+    transition-duration: 0.2s;
     padding: 10px 60px 10px 60px;
 }
 .reset:hover{
-    background-color: #ff5e42;
-    padding: 10px 100px 10px 100px;
+    background-color: #ff3030;
+    padding: 20px 100px 20px 100px;
+    font-size: 20px;
+    border-radius: 18px;
+
 }
 .card{
     display: flex;
@@ -45,17 +48,19 @@ button{
     border-radius: 16px;
     padding: 16px;
     margin: 8px;
-    transition-duration: 1s;
+    transition-duration: 0.4s;
 
 
 }
 .card:hover{
     transition-duration: 0.4s;
+    padding: 32px;
     -webkit-box-shadow: 0px 0px 27px -11px rgba(41,41,41,0.7);
     -moz-box-shadow: 0px 0px 27px -11px rgba(41,41,41,0.7);
     box-shadow: 0px 0px 27px -11px rgba(41,41,41,0.7);
 }
 .wrapper{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +74,8 @@ button{
     font-size: 32px;
 }
 button:hover{
-    transition-duration: 1s;
+    transition-duration: 0.2s;
     background-color: #3372fa;
-    padding: 10px 70px 10px 70px;
+    padding: 10px 80px 10px 80px;
+    font-size: 20px;
 }
